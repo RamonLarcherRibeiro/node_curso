@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.4"
+  }
+}

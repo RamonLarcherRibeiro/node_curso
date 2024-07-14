@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+</head>
+<body>
+
+    <header style="display:flex; flex-direction:row;justify-content:space-between; ">
+        <div>
+            <a href="/">home</a>
+        </div>
+        <div>
+            {{#if user.username}}
+                <a>{{user.username}}</a>
+            {{else}}
+                <a href="/login">login</a>
+            {{/if}}
+        </div>
+
+    </header>
+    {{{body}}}
+    <footer>
+        <p>rodape</p>
+    </footer>
+</body>
+</html>
